@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Slogtransportes</title>
+    <link rel="stylesheet" href="Site.css">
+    <script src="particles.min.js"></script> <!-- Inclua o script aqui -->
+</head>
+<body>
+    <div id="particles-js"></div> <!-- Adicione este contêiner -->
+    <header>
+        <div class="logo">
+            <h1>Slogtransportes</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#" data-target="home">Home</a></li>
+                <li><a href="#" data-target="solucoes">Soluções</a></li>
+                <li><a href="#" data-target="rastreamento">Rastreamento</a></li>
+                <li><a href="#" data-target="institucional">Institucional</a></li>
+                <li><a href="#" data-target="contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home" class="page-section active">
+        <div class="hero">
+            <h2>Tecnologia e Inovação em todas as etapas!</h2>
+            <p>Oferecemos soluções logísticas completas para o seu negócio.</p>
+        </div>
+    </section>
+
+    <section id="solucoes" class="page-section">
+        <div class="services">
+            <div class="service">
+                <h3>Rastrear um Produto</h3>
+                <p>Acompanhe o envio das suas encomendas com segurança e agilidade.</p>
+            </div>
+            <div class="service">
+                <h3>Enviar Produtos</h3>
+                <p>Envie seus produtos com a melhor logística do mercado.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="rastreamento" class="page-section">
+        <h2>Rastreamento de Encomendas</h2>
+        <form>
+            <input type="text" placeholder="Nome ou Razão Social">
+            <input type="text" placeholder="CPF ou CNPJ">
+            <input type="text" placeholder="CEP">
+            <button type="submit">Rastrear</button>
+        </form>
+    </section>
+
+    <section id="institucional" class="page-section">
+        <h2>Institucional</h2>
+        <p>Conheça mais sobre a Slogtransportes, nossa missão, visão e valores.</p>
+    </section>
+
+    <section id="contato" class="page-section">
+        <h2>Contato</h2>
+        <p>Entre em contato conosco para mais informações e suporte.</p>
+        <form>
+            <input type="text" placeholder="Seu Nome">
+            <input type="email" placeholder="Seu Email">
+            <textarea placeholder="Sua Mensagem"></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    
+    <footer>
+        <p>&copy; 2024 Slogtransportes. Todos os direitos reservados.</p>
+        <p>Contato: (11) 1234-5678</p>
+    </footer>
+
+    <script src="Site.js"></script>
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function() {
+            console.log('particles.js loaded - callback');
+        });
+    </script>
+</body>
+</html>
